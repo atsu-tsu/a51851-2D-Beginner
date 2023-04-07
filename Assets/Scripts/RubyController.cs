@@ -50,4 +50,15 @@ public class RubyController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        RubyController controller = other.GetComponent<RubyController>();
+
+        if (controller != null)
+        {
+            controller.ChangeHealth(1);
+            Destroy(gameObject);
+        }
+    }
 }
