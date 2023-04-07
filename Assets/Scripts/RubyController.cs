@@ -21,11 +21,8 @@ public class RubyController : MonoBehaviour
     {
 
         rigidbody2d = GetComponent<Rigidbody2D>();
-
         currentHealth = maxHealth;
 
-        //QualitySettings.vSyncCount = 1;
-        //Application.targetFrameRate = 60;
     }
 
     // Update is called once per frame
@@ -33,7 +30,6 @@ public class RubyController : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
-
     }
 
     void FixedUpdate()
@@ -50,17 +46,6 @@ public class RubyController : MonoBehaviour
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        RubyController controller = other.GetComponent<RubyController>();
-
-        if (controller != null)
-        {
-            controller.ChangeHealth(1);
-            Destroy(gameObject);
-        }
     }
 
 }
