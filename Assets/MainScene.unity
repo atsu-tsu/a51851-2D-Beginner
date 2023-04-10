@@ -1220,6 +1220,7 @@ GameObject:
   - component: {fileID: 1550424383}
   - component: {fileID: 1550424385}
   - component: {fileID: 1550424384}
+  - component: {fileID: 1550424386}
   m_Layer: 5
   m_Name: UIHealthBar
   m_TagString: Untagged
@@ -1285,6 +1286,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550424382}
   m_CullTransparentMesh: 1
+--- !u!114 &1550424386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550424382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c36ceb01c050b446ae1b7f3dc099fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 617191556}
 --- !u!1 &1818146142
 GameObject:
   m_ObjectHideFlags: 0
