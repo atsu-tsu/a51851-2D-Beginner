@@ -976,7 +976,7 @@ GameObject:
   - component: {fileID: 1272701733}
   - component: {fileID: 1272701732}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -997,9 +997,9 @@ RectTransform:
   m_Father: {fileID: 707939941}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746, y: 424}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 244, y: -133}
   m_SizeDelta: {x: 1336, y: 615}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272701732
