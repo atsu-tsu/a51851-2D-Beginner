@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
+    public string transform;
+
     public float speed = 3.0f;
 
     public int maxHealth = 5;
@@ -99,5 +101,8 @@ public class RubyController : MonoBehaviour
 
         animator.SetTrigger("Launch");
     }
+
+    
+   
 
 }
