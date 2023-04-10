@@ -993,6 +993,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2328328953099597952, guid: 2bc1b5539ddc8ee439b57a150a4839fe, type: 3}
+      propertyPath: m_Size.y
+      value: 0.22503531
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328328953099597952, guid: 2bc1b5539ddc8ee439b57a150a4839fe, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.18336791
+      objectReference: {fileID: 0}
     - target: {fileID: 3209996668804155163, guid: 2bc1b5539ddc8ee439b57a150a4839fe, type: 3}
       propertyPath: m_Name
       value: TreeBig3
@@ -12212,6 +12220,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2956841634237623777, guid: e26a56234c233f14eb3e4c20651c505e, type: 3}
+      propertyPath: m_Mass
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2956841634237623777, guid: e26a56234c233f14eb3e4c20651c505e, type: 3}
+      propertyPath: m_LinearDrag
+      value: 9.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 2956841634237623777, guid: e26a56234c233f14eb3e4c20651c505e, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5980204852714354746, guid: e26a56234c233f14eb3e4c20651c505e, type: 3}
       propertyPath: m_Name
       value: MetalCube
