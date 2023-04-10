@@ -3667,6 +3667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot
       objectReference: {fileID: 0}
+    - target: {fileID: 5193597993317237512, guid: a1b1ab6e652c48c469e286912c2f8208, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5193597993317237513, guid: a1b1ab6e652c48c469e286912c2f8208, type: 3}
       propertyPath: m_RootOrder
       value: 10
